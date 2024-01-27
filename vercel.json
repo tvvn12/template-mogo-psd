@@ -1,9 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "routes": [
     {
-      "src": "./gulp.js",
-      "use": "@vercel/node"
+      "src": "/path1",
+      "dest": "/public/index.html"
     }
   ]
 }
