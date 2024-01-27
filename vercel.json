@@ -1,4 +1,11 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "./gulp.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/path1",
