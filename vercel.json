@@ -3,11 +3,10 @@
   "builds": [
     {
       "src": "gulpfile.js",
-      "use": "@vercel/static-build",
+      "use": "@vercel/node",
       "config": {
         "distDir": "dist"
       }
     }
-  ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  ]
 }
