@@ -5,11 +5,5 @@
       "src": "./gulpfile.js",
       "use": "@vercel/node"
     }
-  ],
-  "routes": [
-    {
-      "src": "/path1",
-      "dest": "/public/index.html"
-    }
   ]
 }
