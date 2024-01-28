@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "./gulpfile.js",
+      "src": "app/scripts/**/*.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "gulpfile.js"
+      "dest": "public/scripts"
     }
   ]
 }
