@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/gulpfile.js"
+      "dest": "/main.js"
     }
   ]
 }
