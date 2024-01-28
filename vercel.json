@@ -1,15 +1,11 @@
 {
+  "installCommand": "npm install",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
+      "src": "main.js",
       "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.js"
     }
   ]
 }
